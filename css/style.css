@@ -1,0 +1,89 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+.slider-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-container .slider {
+    display: flex;
+    translate: 0px;
+    transition: 1.3s;
+}
+
+.slider-container .toggle-direction {
+    flex-direction: row-reverse;
+}
+
+.slider-container .slider .slide {
+    position: relative;
+}
+
+.slider-container .slider .slide img {
+    width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slider-container .h-100vh .slide img {
+    height: 100vh;
+}
+
+.slider-container .slider .slide .slide-content {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-container .slider-controls {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-container .slider-controls button {
+    width: 40px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    background-color: #ffffffa0;
+    box-shadow: 0px 0px 10px #0000005d;
+    transition: .3s;
+}
+
+.slider-container .slider-controls button:hover {
+    background-color: #0d9dfd;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/* delete it */
+.replace_me{
+    margin: auto;
+    width: fit-content;
+    line-height: 100vh;
+    font-size: calc(30px + 1vw);
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0px 0px 10px #000,0px 0px 10px #000;
+}
