@@ -82,6 +82,7 @@
     height: 100vh;
     display:flex;
     align-items: center;
+    text-align:center;
     justify-content: center;
     font-size: calc(30px + 1vw);
     font-weight: bold;
