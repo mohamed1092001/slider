@@ -78,7 +78,7 @@
 /* delete it */
 .replace_me{
     margin: auto;
-    width: 70%;
+    width: 70vw;
     text-align:center;
     line-height: 100vh;
     font-size: calc(30px + 1vw);
